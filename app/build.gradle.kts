@@ -16,7 +16,7 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-        buildConfigField("String","BASE_URL", "\"https://raw.githubusercontent.com/itmmckernan/triviaJSON/master\"")
+        buildConfigField("String","BASE_URL", "\"https://raw.githubusercontent.com/itmmckernan/triviaJSON/master/\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -62,11 +62,9 @@ dependencies {
     implementation(libs.retrofit2.converter.gson)
     implementation(libs.logging.interceptor)
 
-    //Dagger Hilt Library
+    // Dagger Hilt Library
     implementation("com.google.dagger:hilt-android:2.46")
     kapt("com.google.dagger:hilt-android-compiler:2.46")
-
-    // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.4")
 
     // Coroutines

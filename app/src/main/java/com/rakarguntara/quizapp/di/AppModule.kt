@@ -2,6 +2,7 @@ package com.rakarguntara.quizapp.di
 
 import com.rakarguntara.quizapp.BuildConfig
 import com.rakarguntara.quizapp.network.ApiService
+import com.rakarguntara.quizapp.repository.Repository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,6 +17,11 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
+
+    @Singleton
+    @Provides
+    fun provideRepository(apiService: ApiService) = Repository(apiService)
+
     @Singleton
     @Provides
     fun getApiConfig(): ApiService{
