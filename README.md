@@ -5,6 +5,7 @@ Quiz App is a simple quiz application with a total of over 4,000 questions. This
 - Prerequisites
   - Android
   - Internet connection
+  - Minimum Sdk 24 (Android 6.0)
 
 - Installation
   - Download the APK
