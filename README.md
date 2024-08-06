@@ -1,5 +1,5 @@
 ## About Project <br />
-\mencoba memberikan solusi dalam mendidik buah hati mereka terdidik secara benar dalam dunia psikologi, fisik, dan mental.
+Quiz App is a simple quiz application with a total of over 4,000 questions. This app was created to implement Retrofit and Clean Architecture using Jetpack Compose.
 
 ## App Overview <br />
 - Prerequisites
@@ -14,3 +14,12 @@
   - Open the app
   - Read the question
   - Answer the question by click one of the option
+ 
+ - Dependecies
+  - Hilt Dagger version 2.46
+  - Retrofit version 2.9.0
+  - Okhttp Logging Interceptor version 4.12.0
+  - Lifecycle Viewmodel Compose version 2.8.4
+  - Coroutines Android version 1.8.1
+  - Coroutines Core version 1.8.1
+  - Coroutines Play Services version 1.8.1
