@@ -14,6 +14,7 @@ Quiz App is a simple quiz application with a total of over 4,000 questions. This
   - Open the app
   - Read the question
   - Answer the question by click one of the option
+  - Click "Next" button to get the new question
  
  - Dependecies
   - Hilt Dagger version 2.46
