@@ -16,7 +16,7 @@ Quiz App is a simple quiz application with a total of over 4,000 questions. This
   - Answer the question by click one of the option
   - Click "Next" button to get the new question
  
- - Dependecies
+## Dependecies <br />
   - Hilt Dagger version 2.46
   - Retrofit version 2.9.0
   - Okhttp Logging Interceptor version 4.12.0
